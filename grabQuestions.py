@@ -9,7 +9,7 @@ from huggingface_hub import notebook_login
 from huggingface_hub import HfFolder
 from huggingface_hub import InferenceApi
 inference = InferenceApi(
-    "bigscience/bloom", token="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")
+    "bigscience/bloom", token=token_here)
 
 
 def removeEverythingElse(fileName):
